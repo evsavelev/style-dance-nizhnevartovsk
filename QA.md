@@ -33,4 +33,11 @@ axe WCAG 2 A/AA и 2.1 A/AA: 0 замечаний на всех шести ра�
 
 ## Воспроизводимость
 Локальные артефакты (не публикуются): qa/local-results.json, qa/file-protocol.json, qa/local-*-hero.png, qa/local-*-full.png, qa/local-*-menu.png, qa/local-*-lightbox.png, qa/mobile-*.png, qa/lighthouse-*.report.json/html.
-Команды находятся в README.md. GitHub Pages проверяется отдельно после публикации.
+Команды находятся в README.md.
+
+## GitHub Pages — опубликовано и проверено
+https://evsavelev.github.io/style-dance-nizhnevartovsk/ опубликован из main / (root).
+GitHub Pages build для e4d58f9c402944a34b5a1a1d275a8e437eb1ae52 завершился со статусом built, ошибок нет.
+Публичный URL повторно проверен Playwright на всех шести размерах: 1280, 1440, 768, 375, 390 и 430 px. Везде 0 ошибок консоли, 0 HTTP 4xx/5xx, 0 broken images, 0 горизонтального overflow и 0 axe WCAG A/AA замечаний. Меню, якоря/CTA, фильтры и dialog работают. Публичные desktop/mobile screenshots визуально просмотрены.
+index.html, styles.css, fonts.css, script.js, robots.txt, sitemap.xml, favicon.svg возвращают HTTP 200 и совпадают с локальными файлами после нормализации переносов строк.
+Артефакты: qa/live-results.json и qa/live-*.png. После этого изменён только данный отчёт; файлы сайта остаются в проверенной версии.
