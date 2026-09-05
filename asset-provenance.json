@@ -1,0 +1,106 @@
+[
+  {
+    "source": "assets\\resource-7d5306070b3c2cdc.jpg",
+    "fullResolution": true,
+    "file": "assets/images/hero.webp",
+    "width": 1376,
+    "height": 768,
+    "bytes": 169978
+  },
+  {
+    "source": "assets\\resource-de843e03c5515d28.jpg",
+    "fullResolution": true,
+    "file": "assets/images/hip-hop.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 118094
+  },
+  {
+    "source": "assets\\resource-6c14d713371538e3.jpg",
+    "fullResolution": true,
+    "file": "assets/images/kpop.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 189662
+  },
+  {
+    "source": "assets\\resource-8a5b0cbc0c9681d2.jpg",
+    "fullResolution": true,
+    "file": "assets/images/bachata.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 80854
+  },
+  {
+    "source": "assets\\resource-4e5d02f65e4561de.jpg",
+    "fullResolution": true,
+    "file": "assets/images/high-heels.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 80352
+  },
+  {
+    "source": "assets\\resource-1fb3ae32b4fd80e0.jpg",
+    "fullResolution": true,
+    "file": "assets/images/breakdance.webp",
+    "width": 1200,
+    "height": 896,
+    "bytes": 126590
+  },
+  {
+    "source": "assets\\resource-92e61a5487830a0f.jpg",
+    "fullResolution": true,
+    "file": "assets/images/kids.webp",
+    "width": 896,
+    "height": 1200,
+    "bytes": 125974
+  },
+  {
+    "source": "assets\\resource-9adfcad2d69b7912.jpg",
+    "fullResolution": true,
+    "file": "assets/images/studio.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 169138
+  },
+  {
+    "source": "assets\\resource-a2dc395f8006130e.jpg",
+    "fullResolution": true,
+    "file": "assets/images/teacher-hip-hop.webp",
+    "width": 896,
+    "height": 1200,
+    "bytes": 125136
+  },
+  {
+    "source": "assets\\resource-06e1407b7a7885db.jpg",
+    "fullResolution": true,
+    "file": "assets/images/teacher-kpop.webp",
+    "width": 896,
+    "height": 1200,
+    "bytes": 57604
+  },
+  {
+    "source": "assets\\resource-38aa37811c59ff58.jpg",
+    "fullResolution": true,
+    "file": "assets/images/teacher-high-heels.webp",
+    "width": 896,
+    "height": 1200,
+    "bytes": 39604
+  },
+  {
+    "source": "assets\\resource-63b5ff777f78ebb1.jpg",
+    "fullResolution": true,
+    "file": "assets/images/teacher-breakdance.webp",
+    "width": 896,
+    "height": 1200,
+    "bytes": 146358
+  },
+  {
+    "source": "assets\\resource-a546537e654ade44.jpg",
+    "fullResolution": true,
+    "file": "assets/images/gallery-events.webp",
+    "width": 1376,
+    "height": 768,
+    "bytes": 178100
+  }
+]

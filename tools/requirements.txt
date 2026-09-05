@@ -1,0 +1,4 @@
+beautifulsoup4==4.14.3
+Pillow>=11
+fonttools>=4.60
+brotli>=1.1
