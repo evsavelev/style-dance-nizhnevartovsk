@@ -1,0 +1,5 @@
+stitch-original/
+node_modules/
+.tools/
+qa/
+__pycache__/
