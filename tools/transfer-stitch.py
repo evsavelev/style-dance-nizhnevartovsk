@@ -95,7 +95,8 @@ replacements={
 }
 for a,b in replacements.items():replace_text(a,b)
 replace_text('и настоящая брейкинг-культура для всех возрастов.','и культура брейкинга.')
-settext(s.select('body > section')[0].select_one('.grid-cols-3 > div > div'),'14')
+settext(s.select('body > section')[0].select_one('.grid-cols-3 > div > div'),'16')
+replace_text('6 ключевых направлений для детей и взрослых','Направления для детей и взрослых')
 for i,h in enumerate(s.select('#teachers h3')):settext(h,['Hip-Hop','K-Pop','High Heels','Брейк-данс'][i])
 # Stable semantic document and anchor navigation.
 hero=s.select('body > section')[0];hero['id']='home';addclass(hero,'hero')
@@ -131,7 +132,7 @@ for i,row in enumerate(s.select('.schedule-item')):
  badge=row.select_one('span.font-label-caps');settext(badge,'Время уточняется')
  addclass(row,'schedule-row')
 # Make all supplied additional styles discoverable, without asserting group availability.
-s.select_one('#styles > div').append(fragment('<div class="more-styles"><h3>Ещё больше движения</h3><p>Zumba · Jazz-funk · Dancehall · Contemporary · Latina · Stretching · Shuffle · Свадебный танец</p><a href="tel:+73466570383">Уточнить набор по направлениям <span aria-hidden="true">↗</span></a></div>'))
+s.select_one('#styles > div').append(fragment('<div class="more-styles"><h3>Ещё больше движения</h3><p>Zumba · Jazz-funk · Dancehall · Contemporary · Latina · Stretching · Shuffle · Свадебный танец · Вальс · Тверк</p><a href="tel:+73466570383">Уточнить набор по направлениям <span aria-hidden="true">↗</span></a></div>'))
 # Header responsive behavior.
 s.header['class']=['site-header']
 s.header.select_one('div')['class']=['header-inner']
