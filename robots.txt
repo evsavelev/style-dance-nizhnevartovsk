@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://evsavelev.github.io/style-dance-nizhnevartovsk/sitemap.xml

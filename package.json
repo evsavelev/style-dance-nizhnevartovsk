@@ -1,0 +1,15 @@
+{
+  "name": "style-dance-nizhnevartovsk",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.cjs -i source.css -o styles.css --minify",
+    "qa": "node tools/browser-qa.cjs"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17",
+    "playwright": "1.58.2",
+    "@axe-core/playwright": "4.11.1",
+    "lighthouse": "12.8.2"
+  }
+}
